@@ -10,7 +10,7 @@ sleep 1
 git clone https://github.com/ohmyzsh/ohmyzsh.git
 sed -i 's/  exec zsh -l//' ./ohmyzsh/tools/install.sh
 sleep 1
-sh ~/Downloads/ohmyzsh/tools/install.sh --skip-chsh
+sh .ohmyzsh/tools/install.sh --skip-chsh
 
 
 echo -e "\n$WEISS######################################\n#$GELB      Installiere zsh-plugins       $WEISS#\n######################################\n"
