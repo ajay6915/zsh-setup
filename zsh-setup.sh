@@ -23,7 +23,7 @@ sed -i 's/plugins=(git)/plugins=(git zsh-completions zsh-autosuggestions zsh-his
 
 cd ~/.oh-my-zsh/themes
 git clone https://github.com/romkatv/powerlevel10k.git
-sed -i 's/theme=("ROBBYRUSSEL")/theme=("powerlevel10k/powerlevel10")/' ~/.zshrc
+sed -i 's/robbyrussel/powerlevel10k/powerlevel10/' ~/.zshrc
 
 echo -e "\n$WEISS######################################\n#$GELB    Installiere Powerline Shell     $WEISS#\n######################################\n"
 sleep 1
