@@ -23,11 +23,11 @@ sed -i 's/plugins=(git)/plugins=(git zsh-completions zsh-autosuggestions zsh-his
 
 cd ~/.oh-my-zsh/themes
 git clone https://github.com/romkatv/powerlevel10k.git
-sed -i 's/robbyrussel/powerlevel10k/powerlevel10/' ~/.zshrc
+sed -i 's|robbyrussel|powerlevel10k/powerlevel10k|' ~/.zshrc
 
 echo -e "\n$WEISS######################################\n#$GELB    Installiere Powerline Shell     $WEISS#\n######################################\n"
 sleep 1
-sudo pip install powerline-shell
+#sudo pip install powerline-shell
 
 sleep 1
 echo -e "\n$WEISS######################################\n#$GELB      Stelle Shell auf zsh um       $WEISS#\n######################################\n"
@@ -37,4 +37,4 @@ chsh -s /bin/zsh $USER
 echo -e "\n$WEISS######################################\n#$GELB  Richte Startoption Neofetch ein   $WEISS#\n######################################\n"
 sleep 1
 echo "neofetch" >> ~/.zshrc
-sudo reboot
+#sudo reboot
