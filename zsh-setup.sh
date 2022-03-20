@@ -19,7 +19,8 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git
 git clone https://github.com/zsh-users/zsh-history-substring-search.git
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 git clone https://github.com/zsh-users/zsh-completions.git
-sed -i 's/plugins=(git)/plugins=(git zsh-completions zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting)/' ~/.zshrc
+git clone https://github.com/romkatv/powerlevel10k.git
+sed -i 's/plugins=(git)/plugins=(git powerlevel10k zsh-completions zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting)/' ~/.zshrc
 
 echo -e "\n$WEISS######################################\n#$GELB    Installiere Powerline Shell     $WEISS#\n######################################\n"
 sleep 1
