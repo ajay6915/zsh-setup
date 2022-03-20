@@ -32,5 +32,5 @@ chsh -s /bin/zsh $USER
 
 echo -e "\n$WEISS######################################\n#$GELB  Richte Startoption Neofetch ein   $WEISS#\n######################################\n"
 sleep 1
-echo "\n neofetch" >> ~/.zshrc
+echo "neofetch" >> ~/.zshrc
 sudo reboot
